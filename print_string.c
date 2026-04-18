@@ -8,16 +8,16 @@
  */
 int print_string(char *s)
 {
-    int i = 0;
+	int i = 0;
 
-    if (s == NULL)
-        s = "(null)";
+	if (s == NULL)
+		s = "(null)";
 
-    while (s[i])
-    {
-        write(1, &s[i], 1);
-        i++;
-    }
+	while (s[i])
+	{
+		write(1, &s[i], 1);
+		i++;
+	}
 
-    return (i);
+	return (i);
 }
