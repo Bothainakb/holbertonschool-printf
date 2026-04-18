@@ -4,7 +4,7 @@
  * print_char - prints a character
  * @c: character to print
  *
- * Return: 1
+ * Return: 1 on success
  */
 int print_char(char c)
 {
