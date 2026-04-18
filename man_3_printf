@@ -28,6 +28,14 @@ Prints a string.
 .B %%
 Prints a percent sign.
 
+.TP
+.B %d
+Prints a decimal (base 10) number.
+
+.TP
+.B %i
+Prints an integer in base 10.
+
 .SH RETURN VALUE
 Upon successful completion, _printf returns the number of characters printed
 (excluding the null byte used to end output to strings).
@@ -40,6 +48,7 @@ Example usage:
 _printf("Hello %s\n", "World");
 _printf("Character: %c\n", 'A');
 _printf("Percent: %%\n");
+_printf("Number: %d\n", 1024);
 
 .SH AUTHORS
 Written by Albedah Bothaina and Alshangiti Mohammed.
